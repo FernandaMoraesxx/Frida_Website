@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Divisions*/
+
+/*Desktop Layout, I tryed my best to make  all the sections responsive*/
+@media only screen and (min-width:900px)
+{
+	html {background-color: white;
+
+	}
+/* body content */
+body {width: 1000px; 
+	height: 2550px;
+	background-color: #055266;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+    margin: 0px auto 0px auto}
+/* header content */
+header {width: 1000px; 
+	    height: 500px;
+        margin: 0px 10px 40px 0px;}
+
+/* Divs content */
+
+.artist {
+	     margin-left: 10px;
+	     margin-right: 100px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+
+.woman {margin-top: 50px;
+	     margin-right: 10px;
+	     margin-left: 100px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+.feminist {margin-top: 50px;
+	     margin-left: 10px;
+	     margin-right: 100px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+
+.mexican {margin-top: 50px;
+	     margin-right: 10px;
+	     margin-left: 100px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+.revolutionary {margin-top: 50px;
+	     margin-left: 10px;
+	     margin-right: 100px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+.author {margin-top: 50px;
+	     margin-right: 10px;
+	     margin-left: 100px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+/* button content */
+.btn{
+  font-family:'Poppins', sans-serif;
+  font-size:14px;
+  font-weight: bold;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+
+
+/* Footer content */
+footer{width: 1000px; 
+	height: 80px;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 300px;
+	margin-bottom: 10px;
+	background-color: #037C92;}
+}
+  
+
+/* mobile  - responsive */
+
+
+@media only screen and (max-device-width: 899px) {
+/* .menu { width:100%; } */
+}
+
+html {background-color: white;}
+
+
+body { flex-direction: row;
+  justify-content: space-around;
+  background-color:#055266;
+   }
+
+header{flex-direction: row;
+  justify-content: space-around;}
+
+  /* the most difficult part it was find how to made this banner responsive*/
+   .img_banner{ width: 100%;
+  height: 70vh;
+ }
+  
+
+.artist {
+  margin-right:10px;
+       margin-left: 10px;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+
+.woman {margin-top: 10px;
+       margin-right: 10px;
+       margin-left: 10px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+.feminist {margin-top: 10px;
+       margin-left: 10px;
+       margin-right: 10px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+
+.mexican {margin-top: 10px;
+       margin-right: 10px;
+       margin-left: 10px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+.revolutionary {margin-top: 10px;
+       margin-left: 10px;
+       margin-right: 10px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+
+.author {margin-top: 10px;
+       margin-right: 10px;
+       margin-left: 10px;
+         text-align: justify;
+         font-family:'Poppins', sans-serif;
+         color: white;}
+.btn{
+  font-family:'Poppins', sans-serif;
+  font-size:10px;
+  font-weight: bold;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;}
+
+ footer{flex-direction: row;
+  height: 80px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 300px;
+  margin-bottom: 10px;
+  background-color: #037C92;}
+}
+
+
+
